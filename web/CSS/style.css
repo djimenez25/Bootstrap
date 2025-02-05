@@ -1,0 +1,47 @@
+/* ESTILOS GENERALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CABECERA */
+nav a.text-black:hover {
+  background-color: black;
+  color: #ffc107 !important;
+}
+
+.flecha {
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #ffc107 !important;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1600px) {
+}

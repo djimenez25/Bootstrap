@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="text-center">
+      <div class="d-lg-flex justify-content-between align-items-lg-center">
+        <div>
+          <a href=""><img src="images/logo.webp" alt="" /></a>
+        </div>
+        <div>
+          <a href=""><img src="images/facebook.png" alt="" /></a>
+          <a href=""><img src="images/tik-tok.png" alt="" /></a>
+          <a href=""><img src="images/linkedin.png" alt="" /></a>
+          <a href=""><img src="images/instagram.png" alt="" /></a>
+        </div>
+      </div>
+      <nav
+        class="d-flex flex-column flex-md-row justify-content-center justify-content-xl-end bg-warning mt-4 mt-lg-0"
+      >
+        <a href="" class="text-black p-2">Inicio</a>
+        <a href="" class="text-black p-2">Sobre mi</a>
+        <a href="" class="text-black p-2">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- SLIDER -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slider1.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>FOTO 1</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider2.webp" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>FOTO 2</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>FOTO 3</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider4.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>FOTO 4</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- PRODUCTOS -->
+
+    <section class="container d-flex flex-wrap my-5">
+      <h2 class="col-12 text-center p-2">Productos</h2>
+
+      <div class="col-12 col-md-6 col-xl-3 p-2">
+        <div class="card">
+          <img src="images/400x350_1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Producto 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-3 p-2">
+        <div class="card">
+          <img src="images/400x350_2.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Producto 2</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-3 p-2">
+        <div class="card">
+          <img src="images/400x350_3.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Producto 3</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-3 p-2">
+        <div class="card">
+          <img src="images/400x350_4.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Producto 4</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION 1 -->
+    <section class="container d-flex flex-wrap my-5 align-items-center">
+      <div class="col-12 col-lg-5 col-xl-6 p-2 p-lg-5 shadow">
+        <h3 class="mb-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod quam
+          at, cupiditate nam magnam facilis temporibus voluptatum. Illum, quidem
+          dolor nihil totam architecto provident veniam, maiores, praesentium
+          error corrupti earum!
+        </p>
+        <div class="text-center">
+          <a href="" class="btn btn-warning d-block">Ver mas</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7 col-xl-6 row p-2 p-lg-5">
+        <div class="col-12 col-lg-6 p-2 text-center">
+          <img src="images/400x350_1.png" alt="" />
+        </div>
+        <div class="col-12 col-lg-6 p-2 text-center">
+          <img src="images/400x350_1.png" alt="" />
+        </div>
+        <p class="col-12">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo
+          dicta eius alias quis maxime, harum accusantium saepe nulla. Est
+          voluptatum blanditiis
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCION 2 -->
+    <section class="container d-flex flex-wrap my-5 align-items-center">
+      <div class="col-12 col-xl-8 d-flex flex-wrap p-2 p-lg-5">
+        <h3 class="col-12">
+          Lorem ipsum dolor sit dolorum, quam, quis cupiditate, numquam ipsam?
+        </h3>
+
+        <div class="col-12 col-md-6 col-lg-4 p-2 text-center">
+          <img class="rounded-circle" src="images/400x350_2.jpeg" alt="" />
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 p-2 text-center">
+          <img class="rounded-circle" src="images/400x350_3.png" alt="" />
+        </div>
+
+        <div class="d-none d-lg-block col-lg-4 p-2 text-center">
+          <img class="rounded-circle" src="images/400x350_4.jpeg" alt="" />
+        </div>
+
+        <div class="d-none d-xl-block col-xl-4 p-2 text-center">
+          <img class="rounded-circle" src="images/400x350_5.jpeg" alt="" />
+        </div>
+
+        <div class="d-none d-xl-block col-xl-4 p-2 text-center">
+          <img class="rounded-circle" src="images/400x350_2.jpeg" alt="" />
+        </div>
+
+        <div class="d-none d-xl-block col-xl-4 p-2 text-center">
+          <img class="rounded-circle" src="images/400x350_3.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col-xl-4 p-2 p-lg-5 shadow">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+          aliquid voluptatum temporibus omnis esse tenetur modi vel laudantium
+          architecto dolorum.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+          aliquid voluptatum temporibus omnis esse tenetur modi vel laudantium
+          architecto dolorum, perferendis libero suscipit atque explicabo
+          recusandae dolores fugiat minus eum?
+        </p>
+      </div>
+      <div class="flecha">
+        <a href=""
+          ><i class="bi bi-arrow-up-square-fill text-warning fs-1"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- SECCION ACORDEON -->
+
+    <section class="container d-flex flex-wrap my-5 align-items-center">
+      <h2 class="col-12 text-center p-2">Nuestros productos</h2>
+      <div class="col-12 col-lg-6 p-2 p-lg-5">
+        <img
+          src="images/600x450_3.png"
+          class="object-fit-cover border rounded"
+          alt="..."
+        />
+      </div>
+
+      <div class="col-12 col-lg-6 p-2 p-lg-5">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Frutas
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Verduras
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Hortalizas
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+
+    <section class="container d-flex flex-wrap my-5">
+      <!-- FORMULARIO -->
+      <div class="col-12 col-md-6 col-lg-8 px-3">
+        <h2 class="col-12 text-center p-2">CONTACTO</h2>
+        <form action="">
+          <!-- NOMBRE Y APELLIDO -->
+          <div class="d-flex flex-wrap my-3">
+            <div class="form-floating col-12 col-lg-6 px-1 mb-2">
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Nombre"
+                required
+              />
+              <label for="nombre">Nombre</label>
+            </div>
+            <div class="form-floating col-12 col-lg-6 px-1 mb-2">
+              <input
+                type="text"
+                class="form-control"
+                id="apellido"
+                placeholder="Apellido"
+                required
+              />
+              <label for="apellido">Apellido</label>
+            </div>
+            <!-- EMAIL -->
+            <div class="form-floating col-12 px-1 mb-2 my-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <!-- ASUNTO Y TELEFONO -->
+          <div class="d-flex flex-wrap my-3">
+            <div class="form-floating col-12 col-lg-7 px-1 mb-2">
+              <select
+                class="form-select"
+                id="floatingSelect"
+                aria-label="Floating label select example"
+              >
+                <option selected>Elige una opcion</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <label for="floatingSelect">Asunto</label>
+            </div>
+            <div class="form-floating col-12 col-lg-5 px-1 mb-2">
+              <input
+                type="text"
+                class="form-control"
+                id="telefono"
+                placeholder="Telefono"
+              />
+              <label for="telefono">Telefono</label>
+            </div>
+          </div>
+          <!-- MENSAJE -->
+          <div class="my-3">
+            <div class="form-floating col-12 px-1 mb-2">
+              <textarea
+                class="form-control"
+                placeholder="Escribe un comentario"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2">Escribe un comentario...</label>
+            </div>
+          </div>
+          <!-- POLITICA Y COMERCIAL -->
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="politica"
+              required
+            />
+            <label class="form-check-label" for="politica"
+              >He leido y acepto la
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalPolitica"
+                >politica de privacidad</a
+              ></label
+            >
+          </div>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="comercial"
+            />
+            <label class="form-check-label" for="comercial"
+              >Acepto comunicaciones comerciales</label
+            >
+          </div>
+          <div class="my-3 text-end">
+            <input class="btn btn-warning w-25" type="submit" value="Enviar" />
+          </div>
+
+          <!-- MODAL -->
+
+          <div
+            class="modal fade"
+            id="modalPolitica"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Politica de privacidad
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  En cumplimiento del principio de transparencia y deber de
+                  información establecido por la normativa comunitaria y
+                  nacional en materia de protección de datos, el COLEGIO JUAN
+                  XXIII procede a informar a los interesados acerca de las
+                  circunstancias y condiciones del tratamiento de sus datos, así
+                  como de los derechos que le asisten. ¿Quién es el responsable
+                  del tratamiento de sus datos? Identidad: COLEGIO JUAN XXIII
+                  CIF: A-28.879.054 Dirección Postal: Calle Nueva 2, 28921
+                  Alcorcón, Madrid. Teléfono: 91 643 83 26 Correo electrónico:
+                  info@juanxxiii.net Delegado de Protección de Datos: Juan Luis
+                  Pérez – juanluis.perez@juanxxiii.net ¿Con qué finalidad
+                  tratamos sus datos personales? En el COLEGIO JUAN XXIII
+                  tratamos los datos personales de los interesados para las
+                  siguientes finalidades: Prestación de la docencia y gestión de
+                  la relación con los alumnos, sus padres, tutores o
+                  representantes legales. Gestionar la relación laboral con
+                  nuestros trabajadores. Gestionar las vacantes laborales de
+                  nuestros centros y la relación con los candidatos.
+                  Mantenimiento y gestión de la relación comercial con nuestros
+                  proveedores de productos y servicios. Garantizar la seguridad
+                  de las personas, bienes e instalaciones. Responder las
+                  consultas que realizan los usuarios a través del formulario de
+                  contacto de nuestra página web. ¿Por cuánto tiempo conservamos
+                  sus datos? Los datos personales se conservarán durante el
+                  tiempo necesario para cumplir con la finalidad para la que se
+                  recabaron y para determinar las posibles responsabilidades que
+                  se pudieran derivar de dicha finalidad y del tratamiento de
+                  los datos. En su caso, se conservarán los datos personales
+                  mientras no se solicite su supresión. ¿Qué categoría de datos
+                  recabamos? Con relación a los alumnos, la normativa vigente
+                  legitima a los centros educativos a recabar datos de carácter
+                  personal para la función docente y orientadora de los mismo en
+                  referencia al origen y ambiente familiar y social, las
+                  características o condiciones personales, el desarrollo y
+                  resultados de escolarización, y las circunstancias cuyo
+                  conocimiento sea necesario para educar y orientar a los
+                  alumnos. Por otro lado, tomando a consideración las
+                  finalidades mencionadas en los aportados anteriores, son
+                  objeto de tratamiento por el Centro las siguientes categorías
+                  de datos, según corresponda a cada uno de los interesados:
+                  Datos de carácter Identificativo: Nombre y apellido, dirección
+                  (postal y electrónica), documento de identidad e imagen. Otros
+                  datos personales: Fecha y lugar de nacimiento, edad, sexo,
+                  nacionalidad y lengua materna. Datos académicos: Formación y
+                  titulaciones. Datos de familia. Datos de Salud, en su caso.
+                  Datos Profesionales: Experiencia Profesional, pertenencia a
+                  colegios y a asociaciones de profesionales. Datos Bancarios.
+                  Datos de información comercial: Actividades, negocios y
+                  licencias comerciales. ¿Cuál es la legitimación para el
+                  tratamiento de sus datos? La base legal para el tratamiento de
+                  sus datos personales estará relacionada con la finalidad para
+                  la cual los datos fueron recogidos. En este sentido, el
+                  tratamiento de sus datos personales estará legitimado por
+                  alguna de las siguientes condiciones: La ejecución del
+                  contrato de prestación de docencia. La ejecución del contrato
+                  de prestación de servicios. El cumplimiento de una obligación
+                  legal. El cumplimiento de una misión realizada en interés
+                  público. El consentimiento otorgado mediante una clara acción
+                  afirmativa por parte del interesado. ¿A qué destinatarios se
+                  comunicarán sus datos? Con carácter general no se comunicarán
+                  los datos personales a terceros, salvo obligación legal.
+                  ¿Cuáles son sus derechos cuando nos facilita sus datos?
+                  Cualquier persona tiene derecho a obtener confirmación sobre
+                  si en el COLEGIO JUAN XXIII estamos tratando datos personales
+                  que les conciernan. Las personas interesadas tienen derecho a
+                  acceder a sus datos personales, así como a solicitar la
+                  rectificación de los datos inexactos o, en su caso, solicitar
+                  su supresión cuando, entre otros motivos, los datos ya no sean
+                  necesarios para los fines que fueron recogidos. En tales
+                  casos, el COLEGIO JUAN XXIII lo comunicará a cada uno de los
+                  destinatarios a los que se hayan comunicado sus datos
+                  personales. También podrán solicitar su derecho de
+                  portabilidad y limitación de sus datos. En determinadas
+                  circunstancias, los interesados podrán solicitar la limitación
+                  del tratamiento de sus datos, en cuyo caso, únicamente los
+                  conservaremos para el ejercicio o la defensa de posibles
+                  reclamaciones. En determinadas circunstancias, y por motivos
+                  relacionados con su situación particular, los interesados
+                  podrán oponerse al tratamiento de sus datos. El COLEGIO JUAN
+                  XXIII dejará de tratar los datos, salvo motivos legítimos
+                  imperiosos o el ejercicio de defensa de posibles
+                  reclamaciones. Los interesados tendrán derecho a recibir los
+                  datos personales que le incumban, que hayan facilitado al
+                  COLEGIO JUAN XXIII, en un formato estructurado, de uso común y
+                  lectura mecánica. Para el ejercicio de los derechos
+                  mencionados en los apartados anteriores, los usuarios pueden
+                  dirigir una comunicación por escrito al domicilio social del
+                  COLEGIO JUAN XXIII o las direcciones de correo electrónico
+                  info@juanxxiii.net o juanluis.perez@juanxxiii.net, incluyendo
+                  en ambos casos fotocopia de su DNI u otro documento
+                  identificativo similar. También le informamos su derecho a
+                  presentar una reclamación ante la Agencia Española de
+                  Protección de Datos, si considera que en el tratamiento de sus
+                  datos no se están respetando sus derechos. ¿Qué medidas de
+                  seguridad tenemos implantadas? El COLEGIO JUAN XXIII le
+                  informa que tiene implantadas las medidas de seguridad de
+                  índole técnica y organizativas necesarias para garantizar la
+                  seguridad de sus datos de carácter personal y evitar su
+                  alteración, pérdida y tratamiento o acceso no autorizado.
+                  Asimismo, el COLEGIO JUAN XXIII ha establecido medidas para
+                  reforzar la confidencialidad e integridad de la información en
+                  su organización. Manteniendo continuamente la supervisión,
+                  control y evaluación de los procesos para asegurar el respeto
+                  a la privacidad de los datos.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-warning"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- MAPA DE GOOGLE -->
+      <div class="col-12 col-md-6 col-lg-4 px-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12163.522803734893!2d-3.8400848860190053!3d40.344992393216074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1729611053139!5m2!1ses!2ses"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="d-flex flex-wrap">
+          <div class="col-12 col-md-6 p2">
+            <p>Calle Nueva 2</p>
+            <p>28921 Alcorcón</p>
+            <p>España</p>
+          </div>
+          <div class="col-12 col-md-6 p2">
+            <p>Horario Secretaría:</p>
+            <p>8:00 h. - 16:00 h.</p>
+            <p>16:00 h. - 20:00 h.</p>
+          </div>
+          <hr />
+          <div class="col-12 p-2">
+            <p>Telef: 91 643 83 26</p>
+            <p>Whatsapp: 640 748 029</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center bg-warning-subtle">
+      <section class="text-center bg-secondary-subtle p-2">
+        <a href=""><img src="images/facebook.png" alt="" /></a>
+        <a href=""><img src="images/tik-tok.png" alt="" /></a>
+        <a href=""><img src="images/linkedin.png" alt="" /></a>
+        <a href=""><img src="images/instagram.png" alt="" /></a>
+      </section>
+
+      <section
+        class="container d-md-flex justify-content-md-between align-items-center"
+      >
+        <div class="">
+          <a href=""><img src="images/logo.webp" alt="" /></a>
+        </div>
+
+        <h3>Daniel Jimenez Mora</h3>
+      </section>
+    </footer>
+  </body>
+</html>
